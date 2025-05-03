@@ -94,3 +94,9 @@ dkms.conf
 [Rr]elease
 [Dd]ebug
 .launch
+
+#  LT-Spice
+*.log
+*.raw
+*.fft
+*.net
