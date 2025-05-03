@@ -1,5 +1,98 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f357b6e9-6160-4f17-8099-9211c79b2c75")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.6 76.2)
+		(size 24.13 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "357b8b2c-6fdc-42a1-a39d-211b9e17c142")
+		(property "Sheetname" "powerSupply"
+			(at 101.6 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerSupply.kicad_sch"
+			(at 101.6 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "microView"
+				(path "/f357b6e9-6160-4f17-8099-9211c79b2c75"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 76.2)
+		(size 36.83 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7daeae28-6ead-4af7-992d-cb781038bd48")
+		(property "Sheetname" "measurementCircuit"
+			(at 166.37 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "measurementCircuit.kicad_sch"
+			(at 166.37 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "microView"
+				(path "/f357b6e9-6160-4f17-8099-9211c79b2c75"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
